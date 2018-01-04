@@ -4,10 +4,9 @@ services:
     build: .
     command: bash
     volumes:
-      - "./app:/usr/src/app"
+      - ".:/usr/src/app"
   test:
     build: .
     command: npm test
     volumes:
-      - "./app:/usr/src/app"
-      
+      - ".:/usr/src/app"
