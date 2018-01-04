@@ -1,0 +1,20 @@
+{
+  "name": "30_days_of_code",
+  "version": "1.0.0",
+  "description": "Writing the tests for HackerRank challenge 30 Days of Code",
+  "main": "day11.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "node",
+    "hackerrank",
+    "code",
+    "tests"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.0.4"
+  }
+}
