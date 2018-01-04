@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: /usr/src/app
     docker:
-      - image: mateusresende/hacker-rank:1.0.1
+      - image: mateusresende/hacker-rank:1.0.2
     steps:
       - checkout
       - setup_remote_docker
